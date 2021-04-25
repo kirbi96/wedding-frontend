@@ -24,6 +24,7 @@ const Auth = () =>{
     const changeHandler = (e) =>{
         setForm({...form, [e.target.name]: e.target.value})
     }
+
     return(
         <div className="col-3 d-flex flex-column mt-4">
             <h1>Авторизация</h1>
